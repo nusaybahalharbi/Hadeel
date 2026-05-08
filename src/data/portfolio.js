@@ -1,33 +1,38 @@
 // All content professionally rewritten for executive-level personal branding.
+// Source: Hadeel Alharbi CV (verified) + LinkedIn profile.
 // Edit values here to update the entire site.
 
 export const profile = {
   name: 'Hadeel Alharbi',
   credentials: 'FMVA®',
   title: 'Financial Analyst',
-  subtitle: 'Investment & Real Estate Development',
-  location: 'Saudi Arabia',
+  subtitle: 'Investment · Real Estate · Hospitality',
+  headline:
+    'Financial Analyst | Investment | Real Estate Development | Financial Modeling | Feasibility Analysis',
+  location: 'Madinah, Saudi Arabia',
   company: 'Knowledge Economic City',
-  email: 'hadeel.alharbi@example.com', // placeholder
+  department: 'Investment Department',
+  email: 'hadeelalraddaddii@gmail.com',
+  phone: '+966 59 418 7282',
   linkedin: 'https://www.linkedin.com/in/hadeelalraddadi/',
-  cvUrl: '/Hadeel-Alharbi-CV.pdf', // placeholder
+  cvUrl: '/Hadeel-Alharbi-CV.pdf', // drop the PDF in /public with this filename
   tagline: 'Architecting capital, modeling outcomes, building enduring value.',
 };
 
 export const heroStats = [
   { value: 4, suffix: '+', label: 'Years in Finance' },
-  { value: 11, suffix: '', label: 'Professional Certifications' },
+  { value: 4, suffix: '', label: 'Professional Certifications' },
   { value: 3, suffix: '', label: 'Languages Spoken' },
-  { value: 100, suffix: '%', label: 'Honors Graduate' },
+  { value: 3.7, suffix: '/4', label: 'GPA — Honors' },
 ];
 
 export const aboutSummary = {
   intro:
-    'A Riyadh-based finance professional dedicated to translating complex capital decisions into clear, defensible strategy.',
+    'A results-driven Financial Analyst translating complex investment decisions into clear, defensible strategy.',
   body: [
-    'As a Financial Analyst with Knowledge Economic City, I work at the intersection of investment, real estate development, and corporate strategy — building feasibility models that turn ambitious visions into bankable plans, and partnering with leadership to evaluate opportunities through a disciplined lens of risk, return, and long-term value creation.',
-    'My approach blends rigorous financial modeling with a builder\'s mindset: I am as comfortable structuring a three-statement model or stress-testing assumptions in a discounted cash flow as I am presenting findings to executive stakeholders. I believe great analysis is never just about numbers — it is about telling the story those numbers reveal.',
-    'I am driven by curiosity, sharpened by an FMVA® designation and a Bachelor of Science in Finance graduated with Honors, and committed to contributing to the next chapter of Saudi Arabia\'s economic transformation.',
+    'Currently with the Investment Department at Knowledge Economic City, I work at the intersection of real estate, hospitality, and corporate finance — building advanced financial models, leading NPV, IRR, and DCF analyses, and partnering with senior leadership to evaluate opportunities through a disciplined lens of risk, return, and long-term value creation.',
+    'My experience spans private-sector investment, public-sector finance with the Ministry of National Guard Health Affairs, and revenue management at Prince Sultan Armed Forces Hospital. Across each role I have refined a single craft: turning data into the kind of insight executives can act on with confidence.',
+    'I am driven by curiosity, sharpened by an FMVA® designation and Rice University coursework in real estate investment, and committed to contributing to the next chapter of Saudi Arabia\'s economic transformation.',
   ],
   values: [
     {
@@ -59,49 +64,51 @@ export const experience = [
     company: 'Knowledge Economic City',
     period: 'Aug 2024 — Present',
     location: 'Madinah, Saudi Arabia',
-    type: 'Investment & Real Estate Development',
+    type: 'Investment Department · Real Estate & Hospitality',
     highlights: [
-      'Lead financial feasibility studies that underwrite real estate and mixed-use development opportunities, translating market assumptions into investment-ready cases.',
-      'Build and maintain three-statement financial models, DCF valuations, and scenario analyses that support capital allocation across the company\'s development portfolio.',
-      'Partner with strategy and business development teams to evaluate joint ventures, land monetization opportunities, and long-horizon investment theses.',
-      'Deliver executive-grade reporting that distills complex financial dynamics into clear narratives for senior leadership and board stakeholders.',
+      'Build and maintain advanced financial models that underpin business planning, budgeting, and multi-year forecasting across the company\'s investment portfolio.',
+      'Conduct NPV, IRR, DCF, and cash flow analyses to evaluate real estate and hospitality investment opportunities, translating market assumptions into investment-ready cases.',
+      'Assess market trends, rent benchmarks, and land valuations to support feasibility studies for mixed-use and hospitality developments.',
+      'Present investment insights and strategic recommendations to senior management, distilling complex financial dynamics into clear narratives for board-level stakeholders.',
+      'Improve forecasting accuracy by integrating historical and real-time financial data with operational performance indicators.',
     ],
   },
   {
-    role: 'Administrator',
+    role: 'Financial Analyst',
     company: 'Ministry of National Guard Health Affairs',
     period: 'Sep 2022 — Aug 2024',
-    location: 'Saudi Arabia',
-    type: 'Operations & Data Analysis',
+    location: 'HTMS Department, Saudi Arabia',
+    type: 'Public-Sector Finance & Reporting',
     highlights: [
-      'Architected advanced Excel workbooks with dynamic formulas, validation logic, and pivot-driven dashboards that elevated reporting accuracy across the department.',
-      'Owned end-to-end data validation workflows, ensuring integrity of accounts and operational records across multiple cross-functional teams.',
-      'Managed account portfolios and administrative pipelines, partnering with stakeholders to streamline reporting cycles and resolve data discrepancies.',
-      'Produced analytical briefings for senior management that informed operational decisions and identified efficiency opportunities.',
+      'Supported financial modeling and executive decision-making through structured market research and quantitative analysis.',
+      'Produced detailed financial reports for internal leadership and external stakeholders, with a discipline of accuracy and audit-readiness.',
+      'Reviewed contracts, purchase orders, invoices, and expense reports to validate commitments and enforce internal controls.',
+      'Partnered across multi-departmental teams to gather, reconcile, and validate financial data feeding strategic reporting cycles.',
     ],
   },
   {
     role: 'Finance Specialist',
     company: 'Prince Sultan Armed Forces Hospital',
-    period: 'Jun 2021 — Dec 2021',
-    location: 'Investment & Revenue Management',
-    type: 'Auditing & Revenue',
+    period: 'Jun 2023 — Aug 2023',
+    location: 'Investment & Revenue Department',
+    type: 'Revenue Management & Accounting',
     highlights: [
-      'Supported the Investment & Revenue Management Department in auditing financial transactions, validating revenue recognition, and reinforcing internal controls.',
-      'Contributed to investment-related operations, including documentation review, reconciliation, and analytical support for senior finance staff.',
-      'Strengthened revenue management workflows by identifying discrepancies and proposing process refinements that protected the bottom line.',
+      'Executed accounting transactions with accurate classification and coding within a regulated, high-volume environment.',
+      'Monitored payables and receivables, prepared account statements, and reinforced reporting integrity across the department.',
+      'Maintained the general ledger and tracked balances to ensure financial records remained current and audit-ready.',
+      'Strengthened client relationships and contributed to identifying growth opportunities within the investment and revenue function.',
     ],
   },
   {
-    role: 'Finance & Accounting Intern',
-    company: 'Namaa Al Munawara',
+    role: 'Accounting & Finance Intern',
+    company: 'Namaa AlMunawarah',
     period: 'Jun 2018 — Aug 2018',
     location: 'Madinah, Saudi Arabia',
     type: 'Foundational Training',
     highlights: [
-      'Performed bank reconciliations and supported month-end close procedures under the guidance of senior accountants.',
-      'Conducted ratio and trend analysis on financial statements to surface insights on liquidity, profitability, and operational health.',
-      'Built a foundation in accounting principles and financial reporting that has informed every analytical role since.',
+      'Verified and analyzed financial statements and performance data, building an early discipline in scrutinizing the numbers behind the report.',
+      'Supported core accounting functions using industry accounting software under the guidance of senior staff.',
+      'Organized financial documentation and assisted in payment processing — laying groundwork for every analytical role since.',
     ],
   },
 ];
@@ -110,20 +117,20 @@ export const education = [
   {
     institution: 'University of Prince Mugrin',
     degree: 'Bachelor of Science in Finance',
-    period: '2014 — 2019',
-    distinction: 'Graduated with Excellence and Honors',
-    activities: 'Active member of the Alpha Business Club',
+    period: 'GPA 3.7 / 4.0',
+    distinction: 'Graduated with Honors',
+    activities: 'Member, Alpha Business Club',
     notes:
       'Comprehensive grounding in corporate finance, investment analysis, financial markets, and quantitative methods.',
   },
   {
-    institution: 'British Council',
+    institution: 'British Council Riyadh',
     degree: 'Advanced English — IELTS Certified',
     period: 'IELTS Band 6.5',
     distinction: 'Professional Working Proficiency',
-    activities: 'Advanced academic and business English program',
+    activities: 'Advanced academic and business English',
     notes:
-      'Polished written and verbal communication for international corporate environments.',
+      'Polished written and verbal communication for international corporate and investment environments.',
   },
 ];
 
@@ -132,82 +139,37 @@ export const certifications = [
     name: 'FMVA®',
     fullName: 'Financial Modeling & Valuation Analyst',
     issuer: 'Corporate Finance Institute',
+    year: '2025',
     category: 'Designation',
     icon: 'Award',
     featured: true,
   },
   {
-    name: 'FMM',
-    fullName: 'Financial Modelling Master',
-    issuer: 'Professional Certification',
-    category: 'Designation',
-    icon: 'TrendingUp',
-    featured: true,
-  },
-  {
-    name: 'McKinsey Forward',
-    fullName: 'Executive Leadership Program',
-    issuer: 'McKinsey & Company',
-    category: 'Executive Program',
-    icon: 'Compass',
-    featured: true,
-  },
-  {
-    name: 'BCG Analysis',
-    fullName: 'Financial Analysis & Profitability',
-    issuer: 'Boston Consulting Group',
-    category: 'Strategy',
-    icon: 'BarChart3',
-    featured: true,
-  },
-  {
     name: 'Real Estate Investment',
-    fullName: 'Investment & Development Specialization',
-    issuer: 'Industry Certification',
+    fullName: 'Real Estate Investment & Development',
+    issuer: 'Rice University Business School',
+    year: '2025',
     category: 'Real Estate',
     icon: 'Building2',
-  },
-  {
-    name: 'REFM',
-    fullName: 'Real Estate Financial Modeling',
-    issuer: 'Specialized Program',
-    category: 'Real Estate',
-    icon: 'Calculator',
-  },
-  {
-    name: 'Budgeting & Forecasting',
-    fullName: 'Corporate Planning Certification',
-    issuer: 'Professional Program',
-    category: 'Corporate Finance',
-    icon: 'LineChart',
-  },
-  {
-    name: 'Advanced Excel',
-    fullName: 'Formulas, Functions & Modeling',
-    issuer: 'Specialized Course',
-    category: 'Tools',
-    icon: 'FileSpreadsheet',
-  },
-  {
-    name: '3-Statement Audit',
-    fullName: 'Auditing & Balancing a Three-Statement Model',
-    issuer: 'Technical Certification',
-    category: 'Modeling',
-    icon: 'CheckCircle2',
+    featured: true,
   },
   {
     name: 'Power BI',
     fullName: 'Data Visualization & Analytics',
-    issuer: 'Microsoft / Specialized Program',
+    issuer: 'Specialized Course',
+    year: '2024',
     category: 'Analytics',
     icon: 'PieChart',
+    featured: true,
   },
   {
     name: 'IELTS',
-    fullName: 'International English Language Testing',
-    issuer: 'British Council',
+    fullName: 'Advanced English — Band 6.5',
+    issuer: 'British Council Riyadh',
+    year: '2020',
     category: 'Language',
     icon: 'Globe',
+    featured: true,
   },
 ];
 
@@ -217,32 +179,34 @@ export const skillGroups = [
     icon: 'TrendingUp',
     skills: [
       { name: 'Financial Modeling', level: 95 },
-      { name: 'Financial Analysis', level: 95 },
-      { name: 'Investment Analysis', level: 92 },
-      { name: 'Feasibility Studies', level: 92 },
-      { name: 'Corporate Finance', level: 90 },
-      { name: 'Auditing', level: 85 },
+      { name: 'NPV / IRR / DCF Analysis', level: 95 },
+      { name: 'Cash Flow Forecasting', level: 92 },
+      { name: 'Investment Valuation', level: 92 },
+      { name: 'Budgeting & Forecasting', level: 92 },
+      { name: 'Financial Reporting', level: 90 },
     ],
   },
   {
-    title: 'Real Estate & Strategy',
+    title: 'Investment & Strategy',
     icon: 'Building2',
     skills: [
-      { name: 'Real Estate Development', level: 90 },
+      { name: 'Real Estate Investment', level: 92 },
+      { name: 'Hospitality Investment', level: 88 },
+      { name: 'Feasibility Studies', level: 92 },
+      { name: 'Market Research', level: 88 },
       { name: 'Strategic Planning', level: 88 },
       { name: 'Business Analysis', level: 90 },
-      { name: 'Revenue Management', level: 85 },
-      { name: 'Budgeting & Forecasting', level: 92 },
     ],
   },
   {
-    title: 'Analytics & Tools',
+    title: 'Tools & Systems',
     icon: 'BarChart3',
     skills: [
-      { name: 'Power BI', level: 88 },
       { name: 'Advanced Excel', level: 95 },
-      { name: 'Data Analytics', level: 90 },
-      { name: 'Microsoft Office', level: 95 },
+      { name: 'Power BI', level: 88 },
+      { name: 'Oracle ERP', level: 80 },
+      { name: 'Sage 50cloud / Retail Pro', level: 75 },
+      { name: 'Data Visualization', level: 88 },
       { name: 'Executive Communication', level: 92 },
     ],
   },
@@ -252,83 +216,83 @@ export const achievements = [
   {
     title: 'FMVA® Charter',
     description:
-      'Earned the Financial Modeling & Valuation Analyst designation, the global benchmark for applied corporate finance.',
+      'Earned the Financial Modeling & Valuation Analyst designation from CFI — the global benchmark for applied corporate finance.',
     icon: 'Award',
   },
   {
-    title: 'Financial Modelling Master',
+    title: 'Rice University · REID',
     description:
-      'Certified across advanced modeling techniques, sensitivity analysis, and three-statement integration.',
-    icon: 'Trophy',
+      'Completed Real Estate Investment & Development at Rice University Business School, deepening expertise in development underwriting.',
+    icon: 'Building2',
   },
   {
     title: 'Honors Graduate',
     description:
-      'Bachelor of Science in Finance, completed with Excellence and Honors at University of Prince Mugrin.',
+      'Bachelor of Science in Finance from University of Prince Mugrin with a GPA of 3.7 / 4.0.',
     icon: 'GraduationCap',
   },
   {
-    title: 'Executive Recognition',
+    title: 'Power BI Certified',
     description:
-      'Formally recognized for impact and excellence by leadership at Knowledge Economic City.',
-    icon: 'Star',
+      'Trained in advanced Power BI data visualization, building executive dashboards that translate data into decision-ready insight.',
+    icon: 'PieChart',
   },
   {
-    title: 'Employee of the Month',
+    title: 'Cross-Sector Experience',
     description:
-      'Honored for sustained contribution, ownership, and standout performance.',
-    icon: 'Medal',
+      'Hands-on financial analysis across private-sector investment, public-sector ministries, and healthcare revenue management.',
+    icon: 'Layers',
   },
   {
     title: 'Lifelong Learner',
     description:
-      'Eleven professional certifications and counting — a deliberate, compounding investment in mastery.',
+      'Sustained investment in technical mastery — modeling, real estate, analytics, executive programs, and continuing education.',
     icon: 'BookOpen',
   },
 ];
 
 export const projects = [
   {
-    title: 'Real Estate Feasibility Modeling',
+    title: 'Real Estate Investment Underwriting',
     category: 'Investment Analysis',
     summary:
-      'End-to-end feasibility models for mixed-use developments — site economics, capital stack, IRR sensitivity, and scenario stress-testing — used to underwrite institutional-grade investment decisions.',
-    tags: ['DCF', 'IRR', 'Capital Stack', 'Scenario Analysis'],
+      'Build full underwriting models for real estate opportunities — NPV, IRR, DCF, and cash flow projections — that translate market assumptions into investment-ready cases for senior management.',
+    tags: ['NPV', 'IRR', 'DCF', 'Real Estate'],
   },
   {
-    title: 'Three-Statement Integrated Model',
-    category: 'Financial Modeling',
+    title: 'Hospitality Portfolio Analysis',
+    category: 'Hospitality Investment',
     summary:
-      'Built and audited fully linked income statement, balance sheet, and cash flow models with circular reference handling, balancing checks, and a defensible audit trail.',
-    tags: ['3-Statement', 'Modeling', 'Audit Trail', 'Excel'],
+      'Deliver investment analyses for hospitality assets, integrating revenue benchmarks, operating costs, and capital requirements into a coherent valuation framework for portfolio decisions.',
+    tags: ['Hospitality', 'Valuation', 'ROI', 'Portfolio'],
   },
   {
-    title: 'Investment Thesis & Valuation',
-    category: 'Corporate Finance',
+    title: 'Feasibility Studies — Mixed-Use Developments',
+    category: 'Feasibility & Valuation',
     summary:
-      'Developed valuation frameworks combining DCF, comparable company, and precedent transaction methods to evaluate strategic investment opportunities.',
-    tags: ['Valuation', 'DCF', 'Comparables', 'Strategy'],
+      'Lead feasibility analyses incorporating rent benchmarks, land valuations, and absorption rates to underwrite mixed-use development opportunities at scale.',
+    tags: ['Feasibility', 'Land Valuation', 'Rent Benchmarks'],
   },
   {
-    title: 'Power BI Executive Dashboard',
-    category: 'Data Analytics',
+    title: 'Budgeting & Forecasting Models',
+    category: 'Financial Planning',
     summary:
-      'Designed interactive Power BI dashboards translating operational and financial data into executive-ready KPIs, with drill-through detail for deeper inquiry.',
+      'Own components of business planning cycles — three-statement projections, scenario analysis, and rolling forecasts that integrate historical and real-time financial data.',
+    tags: ['Budgeting', 'Forecasting', 'Planning', '3-Statement'],
+  },
+  {
+    title: 'Power BI Executive Dashboards',
+    category: 'Data Visualization',
+    summary:
+      'Design Power BI dashboards that translate operational and investment data into executive-ready KPIs, with drill-through detail for deeper analytical inquiry.',
     tags: ['Power BI', 'KPI', 'Visualization', 'Reporting'],
   },
   {
-    title: 'Annual Budget & Forecast Cycle',
-    category: 'Strategic Planning',
+    title: 'Public-Sector Financial Reporting',
+    category: 'Corporate Finance',
     summary:
-      'Owned segments of the annual budgeting and rolling forecast process, integrating departmental inputs into a unified financial plan with variance analytics.',
-    tags: ['Budgeting', 'Forecasting', 'Variance', 'Planning'],
-  },
-  {
-    title: 'Revenue Audit & Reconciliation',
-    category: 'Auditing',
-    summary:
-      'Led reconciliation workflows and revenue audits that surfaced discrepancies, tightened internal controls, and protected reported earnings integrity.',
-    tags: ['Audit', 'Reconciliation', 'Controls', 'Revenue'],
+      'Produced detailed financial reports for the Ministry of National Guard Health Affairs, validating contracts, invoices, and purchase orders within a regulated reporting environment.',
+    tags: ['Reporting', 'Audit', 'Controls', 'Public Sector'],
   },
 ];
 

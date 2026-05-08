@@ -1,9 +1,29 @@
 import { motion } from 'framer-motion';
-import { Award, Trophy, GraduationCap, Star, Medal, BookOpen } from 'lucide-react';
+import {
+  Award,
+  Trophy,
+  GraduationCap,
+  Star,
+  Medal,
+  BookOpen,
+  Building2,
+  PieChart,
+  Layers,
+} from 'lucide-react';
 import SectionHeader from '../components/SectionHeader';
 import { achievements } from '../data/portfolio';
 
-const iconMap = { Award, Trophy, GraduationCap, Star, Medal, BookOpen };
+const iconMap = {
+  Award,
+  Trophy,
+  GraduationCap,
+  Star,
+  Medal,
+  BookOpen,
+  Building2,
+  PieChart,
+  Layers,
+};
 
 export default function Achievements() {
   return (

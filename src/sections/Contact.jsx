@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
-import { Mail, Linkedin, MapPin, Send, ArrowUpRight, Check } from 'lucide-react';
+import { Mail, Linkedin, MapPin, Phone, Send, ArrowUpRight, Check } from 'lucide-react';
 import SectionHeader from '../components/SectionHeader';
 import { profile } from '../data/portfolio';
 
@@ -49,6 +49,12 @@ export default function Contact() {
               href={`mailto:${profile.email}`}
             />
             <ContactRow
+              icon={Phone}
+              label="Phone"
+              value={profile.phone}
+              href={`tel:${profile.phone.replace(/\s/g, '')}`}
+            />
+            <ContactRow
               icon={Linkedin}
               label="LinkedIn"
               value="/in/hadeelalraddadi"
@@ -68,9 +74,9 @@ export default function Contact() {
               <ul className="space-y-2.5 text-sm text-ink-700 dark:text-ink-200">
                 {[
                   'Investment & corporate finance opportunities',
-                  'Real estate development advisory',
-                  'Strategic finance and modeling collaborations',
-                  'Speaking, mentorship, and knowledge-sharing',
+                  'Real estate and hospitality investment roles',
+                  'Feasibility, valuation, and modeling collaborations',
+                  'Strategic finance and advisory engagements',
                 ].map((item) => (
                   <li key={item} className="flex gap-2.5">
                     <span className="mt-1.5 h-1 w-1 rounded-full bg-gold-500 flex-shrink-0" />
